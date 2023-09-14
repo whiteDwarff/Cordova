@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  font-size: 10px;
+}
+section {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+.title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+aside {
+  width: 40%;
+}
+span {
+  display: block;
+}
+#name {
+  text-align: center;
+  padding: 2rem 0;
+}
+#name span {
+  font-size: 1.5rem;
+}
+#name span:last-child {
+  font-weight: bold;
+}
+#info .flex-box {
+  margin-bottom: 1.5rem; 
+  border-bottom: 1px solid #000;
+  font-size: 0.8rem;
+}
+#info .flex-box span {
+  margin-left: .5rem;
+}
+.flex-box {
+  display: flex;
+}
+.bold {
+  font-weight: bold;
+}
+#detail-info {
+  width: 60%;
+  padding: 0 5rem;
+}
+#detail-info h4:hover {
+  text-decoration: underline;
+}
+.info-card {
+  width: 50%;
+  margin-bottom: 1rem;
+  /* background-color: #ff0; */
+}
+.info-card span{
+  color: #333;
+  font-size: 0.8rem;
+  margin-bottom: 0.4rem;
+  font-weight: 200;
+}
+.info-card h4{
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+#margin-right {
+  margin-right: 2rem;
+}
+.image {
+  width: 50%;
+}
+main {
+  width: 80%;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+main ul{
+  display: flex;
+}
+main ul span {
+  color: #000;
+  display: block;  
+  width: 50%;
+  margin: 0 auto 2rem auto;
+  font-weight: bold;
+  font-size: 1rem;
+
+}
