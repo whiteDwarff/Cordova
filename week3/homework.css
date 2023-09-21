@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-weight: 200;
+  color: #000;
+}
+body {
+    background-color: #f5f5f5;
+    font-size: 16px;
+}
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+    margin-bottom: 10px;
+}
+.wrapper {
+    width: 85%;
+    margin: 20px auto;
+}
+
+h1 {
+    display: none;
+}
+
+h2, h3 {
+    font-family: sans-serif;
+}
+
+h2 {
+    margin: 0 0 20px 0;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+#my_info  {
+  width: 40%;
+  margin-right: 10%;
+}
+#contact {
+  width: 40%;
+}
+#my_info h2 {
+    display: none;
+}
+
+#my_info img {
+    width: 40%;
+    height: auto;
+    border-radius: 50px;
+    margin-right: 40px;
+} 
+
+#my_info table {
+    width: 40%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    vertical-align: top;
+}
+
+th {
+    text-align: left;
+    padding-right: 20px;
+}
+
+th, td {
+    font-size: 12px;
+}
+
+#myname th {
+    display: none;
+}
+
+#myname td {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+a:hover {
+    text-decoration: underline;
+    color: gold;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 4px;
+}
+
+ul li::before {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+/* skill */
+#skill {
+  margin: 100px 0;
+  text-align: center;
+}
+
+#skill li {
+    padding: 4px 10px;
+    border-radius: 10px;
+    margin: 20px 15px 0 15px;
+    color: #fff;
+    font-size: 20px;
+    /* font-weight: normal; */
+    transition: 0.5s ease-in-out;
+}
+#skill li:hover {
+  transform: scale(1.1);
+	transition: 0.5s ease-in-out;
+}
+#skill i {
+  color: #fff;
+  margin-right: 5px;
+}
+#html {
+  background-color: #f00;
+}
+#css {
+  background-color: rgb(0, 140, 255);
+}
+#js {
+  background-color: rgb(255, 230, 2);
+}
+#vue {
+  background-color: rgb(28, 209, 25);
+}
+#db {
+  background-color: #2f2f2f;
+}
+#server {
+  background-color: #77b6d8;
+}
+
+/* project */
+#project ol {
+    list-style: none;
+    padding: 0;
+}
+
+#project li {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+#project li:last-child {
+    border-bottom: none;
+}
+
+#project video {
+    width: 100%;
+}
+
+#project a {
+    color: gold;
+    display: inline-block;
+    border-radius: 4px;
+    padding: 2px 8px 2px 0;
+}
+
+#project a:hover {
+    background-color: #2f2f2f;
+    text-decoration: none;
+    padding: 2px 8px;
+    transition: padding 0.2s;
+}
+i {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.font {
+  font-size: 1rem;
+}
+.bold {
+  font-weight: bold;
+}
+.flex-box {
+  display: flex;
+}
+.space-between {
+  justify-content: space-between;
+}
+.center {
+  justify-content: center;
+}
+#contact ul li {
+  margin-bottom: 20px;
+}
