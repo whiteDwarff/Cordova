@@ -1,9 +1,81 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
-    
-  </head>
-  <body>
-    <a href="week2/report/index.html">2주차 레포트</a>
-  </body>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<title>jQuery Mobile</title>
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <link rel="stylesheet" href="mportpolio.css"/>
+  <link rel="stylesheet" type="text/css" href="./week4/exam.css"/>
+  <style>
+    .section1  h3{
+	text-align: center;
+}
+#study {
+	display: flex;
+}
+.title {
+	text-align: center;
+	margin: 30px 0 10px 0;
+}
+.area {
+  position: relative; /* absolute는 부모가 relative일 때 부모를 따라간다. */
+  width:50%;
+  padding-bottom: 56.25%; /* 16:9 비율 */
+}
+
+.iframe {
+  position: absolute;
+  width: 100%; /* 부모에 맞게 꽉 채운다. */
+  height: 50%;
+}
+
+  </style>
+</head>
+<body>
+	
+<div id="page1">
+	<div data-role="header">
+		<h1>페이지제목</h1>
+		<div data-role="navbar" >
+			<ul>
+				<li><a href="./week4/index.html" class="ui-btn-active">포트폴리오</a></li>
+				<li><a href="./week4/info.html">인적사항</a></li>
+				<li><a href="./week4/study.html">학술</a></li>
+				<li><a href="./week4/mintro.html">소개</a></li>
+			</ul>
+		</div>
+	</div>		
+</div>
+
+<div class="wrap">
+  <div class="content">
+    <section class="section1">  
+      <h3>프로젝트</h3>
+      <article id="study">
+        <div class="area">
+          <p class="title">Vue3로 쇼핑몰 웹사이트 구현</p>
+          <iframe src="https://main--clinquant-twilight-679959.netlify.app/" frameborder="0" class="iframe"></iframe>
+        </div>
+        <div class="area">
+          <p class="title">Vue2로 HackerNews 구현</p>
+          <iframe src="https://velvety-duckanoo-58de5e.netlify.app/news" frameborder="0" class="iframe"></iframe>
+        </div>
+      </article>
+
+    </section>
+    <aside>
+      <h3 class="title">참고링크</h3>
+      <a href="https://github.com/whiteDwarff" class="block">GitHub</a>	
+      <a href="https://www.instagram.com/newwave_archiv2/" class="block">인스타그램</a>
+    </aside>
+  </div>
+  <footer>
+    <h2>Copyright &copy; 2014 Hong, GilDong </h2>
+  </footer>
+</div>
+</body>
 </html>
+
