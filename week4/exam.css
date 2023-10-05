@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  font-size: 10px;
+}
+
+.block {
+  display: block;
+}
+.wrap  {
+  width: 80%;
+  margin: 0 auto;
+}
+#page1 {
+  margin-bottom: 5rem;
+}
+.content {
+  display: flex;
+  height: calc(100vh - 20rem);
+  font-size: 1rem;
+  border: 1px solid #999;
+  padding: 1rem;
+  margin-bottom: 10rem;
+}
+section {
+  width: 80%;
+  padding-right: 1rem;
+}
+aside {
+  padding-left: 3rem;
+  border-left: 1px solid #999;
+  width: 20%;
+}
+aside > a {
+  margin-bottom: 1rem;
+}
+.title {
+  margin-bottom: 2rem;
+}
+footer {
+  height: 10rem;
+}
