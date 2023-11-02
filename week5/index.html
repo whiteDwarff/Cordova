@@ -8,22 +8,26 @@
 	<script src="../lib/jquery-1.11.1.min.js"></script>
 	<script src="../lib/jquery.mobile-1.4.5.min.js"></script>
 <style>
-   li { list-style:none; }
+  li { list-style:none; }
 	.img-wrap{
 		width: 100%;
-	}
-	.img-wrap > .img-box {
-		width: 25%;
-		display: inline;
-		overflow: hidden;
-	}
-	.img {
-		transition: 0.5s ease-in;
-		margin: 3%;
+		padding: 0;
+		display: flex;
+		flex-wrap: wrap;
 	}
 	.scale {
 		transition: 0.5s ease-in;
 		transform: scale(1.1);
+	}
+	.img-box {
+		width: 23%;
+		margin: 1%;
+	}
+	.img {
+		width: 100%;
+		/* margin: 1%; */
+		transition: 0.5s ease-in;
+		cursor: pointer;
 	}
 </style>
 </head>
