@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="../lib/jquery.mobile-1.4.5.min.css">
 	<script src="../lib/jquery-1.11.1.min.js"></script>
 	<script src="../lib/jquery.mobile-1.4.5.min.js"></script>
+
 <style>
   li { list-style:none; }
 	.img-wrap{
@@ -230,19 +231,28 @@
 		</div>		
 	</div>
 </div>
-<script>
-const li = document.getElementsByClassName('img-box');
-for(let i=0; i<li.length; i++) {
-	li[i].addEventListener('mouseover', e => {
-		let img = document.getElementsByClassName('img');
-		img[i].classList.add('scale');
-	})
-	li[i].addEventListener('mouseout', e => {
-		let img = document.getElementsByClassName('img');
-		img[i].classList.remove('scale');
-	})
-}
 
+<script>
+// const li = document.getElementsByClassName('img-box');
+// for(let i=0; i<li.length; i++) {
+// 	li[i].addEventListener('mouseover', e => {
+// 		let img = document.getElementsByClassName('img');
+// 		img[i].classList.add('scale');
+// 	})
+// 	li[i].addEventListener('mouseout', e => {
+// 		let img = document.getElementsByClassName('img');
+// 		img[i].classList.remove('scale');
+// 	})
+// }
+$(document).ready(function() {
+  $('.img-box').on('mouseover', function() {
+    $(this).find('.img').addClass('scale');
+  });
+
+  $('.img-box').on('mouseout', function() {
+    $(this).find('.img').removeClass('scale');
+  });
+});
 
 </script>	
 </body>
